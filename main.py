@@ -9,10 +9,6 @@ if len(sys.argv) < 2:
 
 book_name = sys.argv[1]
 
-
-
-
-
 def main():
     print("============ BOOKBOT ============")
     print(f"Analyzing book found at {book_name}...")

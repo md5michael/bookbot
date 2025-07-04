@@ -29,5 +29,3 @@ def sort_letters():
     new_dict_list.sort(reverse=True, key=sort_on)
     for letter in new_dict_list:
         print(f"{letter['char']}: {letter['num']}")
-
-    #print(new_dict_list)
